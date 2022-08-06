@@ -1,0 +1,23 @@
+{
+  "name": "github-x",
+  "version": "0.1.0",
+  "description": "GitHub Executor API Interface",
+  "repository": "https://github.com/mxcd/github-x",
+  "main": "index.js",
+  "bin": {
+    "github-x": "./bin.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bin": "node index.js"
+  },
+  "author": "Max Partenfelder",
+  "license": "ISC",
+  "dependencies": {
+    "argparse": "^2.0.1",
+    "axios": "^0.21.1",
+    "diff": "^5.0.0",
+    "fs-extra": "^9.0.1",
+    "unzipper": "^0.10.11"
+  }
+}
